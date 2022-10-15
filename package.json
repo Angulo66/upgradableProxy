@@ -6,9 +6,12 @@
     "release": "npx thirdweb@latest release"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "hardhat": "^2.10.1"
   },
   "dependencies": {
-    "@thirdweb-dev/contracts": "^3"
+    "@openzeppelin/contracts": "^4.7.3",
+    "@thirdweb-dev/contracts": "^3",
+    "ethers": "^5.7.1"
   }
 }
